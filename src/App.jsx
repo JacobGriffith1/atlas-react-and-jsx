@@ -1,4 +1,5 @@
 import Header from "./components/Header";
+import HelpfulResource from "./components/HelpfulResource";
 import Section from "./components/Section";
 
 export default function App() {
@@ -21,6 +22,21 @@ export default function App() {
           <li>One-way data flow keeps state predictable and debuggable.</li>
           <li>Huge ecosystem (Router, Next.js, DevTools, tests) boosts productivity.</li>
         </ul>
+      </Section>
+
+      <Section title="Helpful resources">
+        <HelpfulResource
+          label="React.dev — Quick Start & Learn"
+          link="http://react.dev/learn"
+        />
+        <HelpfulResource
+          label="Thinking in React (official docs)"
+          link="https://react.dev/learn/thinking-in-react"
+        />
+        <HelpfulResource
+          label="React Crash Course (Traversy Media)"
+          link="https://www.youtube.com/watch?v=w7ejDZ8SWv8"
+        />
       </Section>
     </main>
   );
