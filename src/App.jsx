@@ -1,11 +1,12 @@
-import Greeting from "./components/Greeting";
-import SocialLinks from "./components/SocialLinks";
+import Header from "./components/Header";
 
 export default function App() {
   return (
-    <div className="app">
-      <Greeting />
-      <SocialLinks />
-    </div>
+    <main>
+      <Header
+        linkedinUrl="https://www.linkedin.com/in/jacobgriffith1"
+        repoUrl="https://github.com/JacobGriffith1/atlas-react-and-jsx"
+      />
+    </main>
   );
 }
