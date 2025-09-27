@@ -1,6 +1,7 @@
 import Header from "./components/Header";
-import HelpfulResource from "./components/HelpfulResource";
 import Section from "./components/Section";
+import HelpfulResource from "./components/HelpfulResource";
+import AboutMe from "./components/AboutMe";
 
 export default function App() {
   return (
@@ -38,6 +39,8 @@ export default function App() {
           link="https://www.youtube.com/watch?v=w7ejDZ8SWv8"
         />
       </Section>
+
+      <AboutMe />
     </main>
   );
 }
